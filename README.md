@@ -47,7 +47,7 @@ A lightweight web application for generating professional automated reports with
 
 ## How to Use
 
-1. Enter a title for your report and upload a JSON file containing the report data. A sample json file is included in the root path.
+1. Enter a title for your report and upload a JSON file containing the report data. A sample json file is included in the root path. Your JSON file can include an array of objects including any kind of value type (png, string, number, ..)
    - Example JSON format:
      ```json
      [
