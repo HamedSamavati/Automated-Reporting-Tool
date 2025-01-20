@@ -27,7 +27,7 @@ A lightweight web application for generating professional automated reports with
 
 ## Demo
 
-[Live Demo](#) *()*
+[Live Demo](#https://hamedsamavati.github.io/) *(https://hamedsamavati.github.io/)*
 
 ---
 
