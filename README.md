@@ -52,20 +52,24 @@ A lightweight web application for generating professional automated reports with
      ```json
      [
        {
-         "Company": "Apple",
-         "Revenue": 365.82,
-         "Expenses": 250.0,
-         "Benefit": 115.82,
-         "Employees": 154000
-       },
-       {
-         "Company": "HP",
-         "Revenue": 63.49,
-         "Expenses": 65.0,
-         "Benefit": -1.51,
-         "Employees": 51000
-       }
-     ]
+       "logo": "https://banner2.cleanpng.com/20240212/awp/transparent-tesla-logo-black-silhouette-of-tesla-logo-with-t-1710879458000.webp",
+       "Company": "Tesla",
+       "Revenue": 274.52,
+       "Expenses": 57.41,
+       "Employees": 147000,
+       "Headquarters": "Cupertino, CA, USA",
+       "Founded": 1976
+     },
+     {
+       "logo": "https://cdn-icons-png.flaticon.com/512/882/882832.png",
+       "Company": "CISCO",
+       "Revenue": 58.76,
+       "Expenses": 2.95,
+       "Employees": 52000,
+       "Headquarters": "Palo Alto, CA, USA",
+       "Founded": 1939
+     },
+   ]
      ```
 2. Click the "Save Report" button to display the data as a styled table in the report.
 3. Download the report as a PDF by clicking the "Export to PDF" button.
