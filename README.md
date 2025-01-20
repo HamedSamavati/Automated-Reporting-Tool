@@ -67,7 +67,7 @@ A lightweight web application for generating professional automated reports with
        }
      ]
      ```
-2. Click the "Generate Report" button to display the data as a styled table in the report.
+2. Click the "Save Report" button to display the data as a styled table in the report.
 3. Download the report as a PDF by clicking the "Export to PDF" button.
 
 ---
@@ -76,6 +76,7 @@ A lightweight web application for generating professional automated reports with
 
 ### Example Report Preview
 There is a sample of pdf saved in the root path.
+![image](https://github.com/user-attachments/assets/74b9fbd3-3af3-42e9-9eb3-1f53b32c67ae)
 
 ---
 
