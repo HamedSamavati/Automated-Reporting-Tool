@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./images/logo.png" />
+    <link
+      rel="preload"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+
+    <title>Automated Reporting Tool</title>
+  </head>
+  <body>
+    <header>
+      <i class="fa-solid fa-file"></i>
+      <h1>Automated Reporting Tool</h1>
+    </header>
+    <main>
+      <div id="form-container">
+        <form id="data-form">
+          <label for="report-title">Report Title:</label>
+          <input
+            class="input"
+            type="text"
+            id="report-title"
+            name="report-title"
+            placeholder="Enter Report Title"
+          />
+
+          <label for="data-input">
+            <i class="fa-solid fa-paperclip"></i> Upload Data (JSON):</label
+          >
+          <input type="file" id="data-input" name="data-input" accept=".json" />
+
+          <button id="generate-report">
+            Generate Report
+            <i class="fa-solid fa-file-export"></i>
+          </button>
+        </form>
+      </div>
+      <div id="report-container">
+        <h2><i class="fa-solid fa-file-invoice"></i> Report Preview</h2>
+        <div id="report-output"></div>
+      </div>
+      <button id="print-report">
+        <i class="fa-solid fa-file-pdf"></i>Save Report
+      </button>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+    <script src="./js/app.js" type="module"></script>
+  </body>
+</html>
